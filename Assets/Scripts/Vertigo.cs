@@ -20,9 +20,9 @@ public class Vertigo : MonoBehaviour
 
     private void Start()
     {
-        timer = 10f;
+        cam.fieldOfView = minFOV;
 
-        locationEnd = new Vector3(2, 4.25f, -2.66f);
+        timer = 10f;
 
         cam = GetComponent<Camera>();
         DoVertigoEffect();

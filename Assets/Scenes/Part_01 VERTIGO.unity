@@ -11106,7 +11106,7 @@ Camera:
   m_ShutterSpeed: 0.2
   m_Aperture: 16
   m_FocusDistance: 10
-  m_FocalLength: 20
+  m_FocalLength: 19.971355
   m_BladeCount: 5
   m_Curvature: {x: 2, y: 11}
   m_BarrelClipping: 0.25
@@ -11121,7 +11121,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 61.927517
+  field of view: 61.999996
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -11147,13 +11147,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1480377163}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.9990483, z: -0.043619405, w: 0}
-  m_LocalPosition: {x: 2, y: 4.25, z: 1.23}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 2, y: 4, z: 0.37}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 5, y: 180, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!114 &1480377169
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11166,11 +11166,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6745a8f476f0f7f469ca558c52c7e54c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minFOV: 15
-  maxFOV: 90
-  locationOrigin: {x: 0, y: 0, z: 0}
-  locationEnd: {x: 0, y: 0, z: 0}
-  timer: 0
+  minFOV: 62
+  maxFOV: 20
+  locationOrigin: {x: 2, y: 4, z: 0.37}
+  locationEnd: {x: 2, y: 4, z: 5}
+  timer: 10
   cam: {fileID: 1480377167}
 --- !u!1001 &1484074875
 PrefabInstance:
